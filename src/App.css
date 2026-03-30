@@ -63,6 +63,13 @@ text-shadow: #61dafb;
 }
 .product_img{
 object-fit: cover;
+}
+ 
+.Footer{
+background-color: beige;
 
 
+}
+.Footer-content{
+text-shadow: #61dafb;
 }

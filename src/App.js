@@ -7,6 +7,7 @@ import Gethotel from './components/Gethotel';
 import Makepayment from './components/Makepayment';
 import Addhotel from './components/Addhotel';
 import { BrowserRouter, Link, Route, Routes } from 'react-router-dom';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -14,6 +15,8 @@ function App() {
     <BrowserRouter>
     <div className="App">
       <header className="App-header">
+        <h2>🅾🅻🅾🅻🆄🅰 🅳🅴🅰🅻🆂 🅰🅽🅳 🅷🅾🆃🅴🅻🆂</h2>
+        <h1></h1>
         <h1>𝕨𝕖𝕝𝕔𝕠𝕞𝕖 𝕗𝕠𝕣 𝕙𝕚𝕘𝕙 𝕖𝕟𝕕 𝕝𝕦𝕩𝕦𝕣𝕪 𝕙𝕠𝕥𝕖𝕝𝕤</h1>
       </header>
       <nav>
@@ -28,7 +31,9 @@ function App() {
       <Route path='/' element = {<Gethotel/>} />
       <Route path='/makepayment' element = {<Makepayment/>} />
       <Route path='/addhotel' element = {<Addhotel/>} />
+      
     </Routes>
+      <Footer/>
     </div>
     </BrowserRouter>
 
